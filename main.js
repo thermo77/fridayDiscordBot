@@ -1,4 +1,3 @@
-
 // setup
 
 const Discord = require('discord.js');
@@ -15,8 +14,8 @@ for(const file of commandFiles){
 }
 
 client.once('ready', () => {
-    console.log('>online');
-    client.user.setActivity((prefix) + 'friday :D');
+    console.log('friday is online');
+    client.user.setActivity(`${prefix}friday :D`);
 });
 
 // commands
@@ -39,4 +38,4 @@ client.on('message', msg =>{
 
 // token login
 
-client.login('put yo token here'); // token goes in "put yo token here"
+client.login('paste token inside apostrophes'); // token goes here

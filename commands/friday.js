@@ -1,9 +1,11 @@
 const Discord = require('discord.js');
+const client = new Discord.Client();
 
 module.exports = {
     name: 'friday',
     description: "text",
        execute(msg, args){
+           
         var date = new Date()
         var day = String(date.getDay())
         var hour = String(date.getHours())
@@ -11,11 +13,11 @@ module.exports = {
         var second = String(date.getSeconds())
 
         if(day < 6){
-            daysuntill = 5 - 1 - day
+            daysuntill = 4 - day
         }else if(date = 6){
-            daysuntill = 6 - 1
+            daysuntill = 5
         }else if(date = 7){
-            daysuntill = 5 - 1
+            daysuntill = 4
         }
 
         hoursuntil = 24 - hour
@@ -38,7 +40,6 @@ module.exports = {
             secondsText = ('seconds')
         }
 
-        
         msg.channel.send('`' + daysuntill + ' days`, `' + hoursuntil + ' '+hoursText+'`, `' + minutesuntil + ' '+minutesText+'` and `' + secondsuntil + '` '+secondsText+' until friday!')            
     }
 }

@@ -3,6 +3,8 @@ This bot allows you to use the !friday command to see how long it is until frida
 
 Use These Steps If You Have Never Set Up A Discord JS Bot Before:
 
+>go to https://nodejs.org/en/
+>install node.js
 >go to https://discord.com/developers/applications
 >create a new application
 >go to settings of your application
@@ -13,3 +15,5 @@ Use These Steps If You Have Never Set Up A Discord JS Bot Before:
 >go to https://discordapi.com/permissions.html
 >put in client id which you would get from your application
 >use the link generated to add the bot to your server
+
+If you have any probelms contact me on discord at thermo77#5791
