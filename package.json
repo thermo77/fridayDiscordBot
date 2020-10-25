@@ -1,0 +1,19 @@
+{
+  "name": "abot",
+  "version": "1.0.0",
+  "description": "autismBot!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thermo77",
+  "license": "ISC",
+  "dependencies": {
+    "better-random-puppy": "^1.0.1",
+    "discord.js": "^12.4.0",
+    "node-fetch": "^2.6.1",
+    "osrs-json-api": "^1.4.1",
+    "random-puppy": "^1.1.0",
+    "yo-mamma": "^1.3.0"
+  }
+}
